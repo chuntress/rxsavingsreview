@@ -1,0 +1,23 @@
+// Place all the styles related to the conditions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.condition {
+	border-bottom: solid 1px #CCC;
+	padding: 5px 0;
+}
+
+.condition p {
+	margin: 4px 0;
+}
+
+.condition.hover {
+	background: #F0F0F0;
+}
+.condition .admin {
+	display: none;
+}
+
+.condition.hover .admin {
+	display: inline;
+}
